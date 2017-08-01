@@ -1,0 +1,154 @@
+body {
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+	font-family: helvetica;
+	color: seashell;
+	margin: 0;
+}
+
+#header {
+	border-bottom: 1px solid seashell;
+	position: fixed;
+	height: 69px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;	
+	align-items: center;
+	background-color: black;
+}
+
+nav {
+	display: flex;
+	width: 400px;
+	justify-content: space-between;
+	margin-right: 10px;
+}
+
+#header img {
+	height: 50px;
+	margin-left: 10px;
+}
+
+a {
+	color: seashell;
+	font-size: 22px;
+}
+
+h2 {
+	font-size: 32px;
+	margin: 20px 0;
+}
+
+h4 {
+	font-size: 22px;
+	
+}
+
+#mission {
+	background-image: url(../images/img-mission-background.jpg);
+	height: 700px;
+	background-repeat: no-repeat;
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 69px;
+}
+
+#mission div {
+	width: 100%;
+	background-color: black;
+}
+
+#featured-tea {
+	margin: 50px auto;
+	width: 1000px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#teatypes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.tea {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	margin: 0 15px;
+}
+
+.tea img {
+	height: 200px;
+}
+
+.tea h4 {
+	margin-top: 10px;
+}
+
+#locations {
+	background-image: url(../images/img-locations-background.jpg);
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	padding-top: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	flex-direction: column;
+}
+
+#blocks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.locblock {
+	width: 300px;
+	background-color: black;
+	margin: 0 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#footer {
+	height: 200px;
+}
+
+#centered {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#left {
+	text-align: left;
+	padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
